@@ -80,6 +80,11 @@
                     <v-divider class="my-3" />
                     <div class="text-h4 mt-6 blue--text">1.99$/week</div>
                   </v-card-text>
+                  <v-divider
+                    style="margin-right: -23px"
+                    vertical
+                    v-if="this.$vuetify.breakpoint.smAndUp"
+                  ></v-divider>
                 </div>
                 <v-divider
                   class="mx-4"
@@ -118,6 +123,11 @@
                     <v-divider class="my-3" />
                     <div class="text-h4 mt-6 blue--text">3.99$/month</div>
                   </v-card-text>
+                  <v-divider
+                    style="margin-right: -23px"
+                    vertical
+                    v-if="this.$vuetify.breakpoint.smAndUp"
+                  ></v-divider>
                 </div>
                 <v-divider
                   class="mx-4"
